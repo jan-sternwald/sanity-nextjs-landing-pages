@@ -1,7 +1,7 @@
 export default {
   name: 'page',
   type: 'document',
-  title: 'Page',
+  title: 'Custom Page',
   fieldsets: [
     {
       title: 'SEO & metadata',
@@ -47,4 +47,10 @@ export default {
       media: 'openGraphImage',
     },
   },
+    {
+      name: 'keywords',
+      type: 'text',
+      title: 'Kaywords',
+      description: 'This keyword list populates meta-tags on the webpage - use comma separated list.',
+    }
 };
